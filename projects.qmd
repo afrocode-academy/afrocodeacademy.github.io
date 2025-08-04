@@ -1,0 +1,37 @@
+
+---
+#title: "Community"
+#page-layout: full
+knitr:
+  opts_chunk: 
+    collapse: true
+execute: 
+  echo: true
+  freeze: auto
+  cache: true  
+toc: false
+---
+
+```{r}
+#| echo: false
+library(distilltools)
+```
+
+# [Projects]{.third-color}
+
+
+
+> Learn by doing. Theory is nice, but nothing replaces actual experience. -Tony Hsieh
+
+That’s why our mentors from leading Universities across Nigeria and beyond will guide fellows to undertake challenging and rewarding projects on data science and machine learning tailored to their experience and background.
+
+Below are some of the amazing projects that our fellows have completed or are working on:
+
+List of Projects by our fellows
+
+
+## List of Projects Completed by Afrocode Academy Fellows
+
+|S.No|Name of Fellow|Project Github repo| Blog/Medium   |   
+|---|--------------|-------------------|---------------| 
+|1| Abdulrazaq Isah Dikko|  [project](https://github.com/sir-ABD)  | [Medium](https://abdulrazaqisahdikko.medium.com)  |
