@@ -1,0 +1,159 @@
+
+---
+# title: ELLA KAYE
+# image: images/profile.jpeg
+# about:
+#   template: jolla
+#   image-shape: rounded
+#   links:
+#     - icon: twitter
+#       text: Twitter
+#       href: https://twitter.com/ellamkaye
+#     - icon: github
+#       text: Github
+#       href: https://github.com/EllaKaye
+#     - icon: linkedin
+#       text: LinkedIn
+#       href: https://www.linkedin.com/in/ella-kaye-9b878248/
+#     - icon: envelope-fill
+#       text: E-mail 
+#       href: mailto:ella.kaye@gmail.com
+knitr:
+  opts_chunk: 
+    collapse: true
+execute: 
+  echo: true
+  freeze: auto
+  cache: true  
+page-layout: full
+include-in-header: 
+  - _includes/fontawesome-2up.html
+  - _includes/mastodon.html
+filters:
+  - social-share
+  -  lightbox
+format: 
+  html:
+    toc: true
+share:
+  permalink: "https://afrocodeacademy.github.io"
+  description: "Afrocode Academy. Empowering the youth through digital literacy and skills of the 4.0 revolution."
+  twitter: true
+  facebook: true
+  reddit: true
+  stumble: true
+  tumblr: true
+  linkedin: true
+  email: true
+  mastodon: true
+---
+
+::: {.grid}
+
+
+::: {.g-col-12}
+[Free Afrocode Academy fellowship]{.home-header}
+:::
+
+
+::: {.g-col-12}
+<marquee><span style="color: blue;">  Application to join Afrocode Academy fellowship is closed! However, you can join our Discord server for updates: <a href="#" style="color: blue;"> click to join</a>!</span></marquee>
+
+<img src="/images/Arewa2.0.png" alt="Alt text" class="lightbox profile-pic" style="width:100%; margin:auto;">
+<!-- ![](/images/arewads.jpg){.lightbox}{.profile-pic fig-align="center" width="70%"} -->
+
+
+<!-- 
+- <span style="color: blue;">Application to join Afrocode Academy is cloed. To join our Telegram group, kindly click on this <a href="#" style="color: blue;">link</a>!</span>
+<!-- - <span style="color: blue;">For Data Science and Machine Learning, Apply <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYJBERpEM7bkO3aI8SG0CuJuKNedKfxP6crQeyh555pU4Lhg/viewform" style="color: blue;">here</a>!</span>
+- <span style="color: blue;">For Deep Learning, Apply <a href="https://docs.google.com/forms/d/e/1FAIpQLSdh9XpS17y2K3BOXoBXEbNmYHo-9rfRCY2PFq1UsimEoc32hQ/viewform" style="color: blue;">here</a>!</span> --> 
+:::
+
+<!-- ::: {.g-col-12}
+![](/images/arewads-hausanlp-vertical.png){.profile-pic fig-align="center" width="70%"}
+
+::: -->
+
+
+
+::: {.g-col-12 .g-col-md-4}
+<div class="card h-100" id="card-first-color">
+<div class="card-body d-flex flex-column">
+<p class="card-text"> A 16-week, free hands-on data science, machine learning and deep learning training program. </p>
+<div style="margin-top: auto;"><a href="about.qmd" class="card-link heading-font">ABOUT</a></div>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<div class="card h-100" id="card-second-color">
+<div class="card-body d-flex flex-column">
+<p class="card-text"> Keep up with the latest news and expert insights from our talented mentors and fellows.</p>
+<div style="margin-top: auto;"><a href="posts.qmd" class="card-link second-color-link heading-font">NEWS/BLOG</a></div>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<div class="card h-100" id="card-third-color">
+<div class="card-body d-flex flex-column">
+<p class="card-text"> Our mentors are top researchers from renowned universities and labs worldwide.</p>
+<div style="margin-top: auto;"><a href="mentors.qmd" class="card-link third-color-link heading-font">MENTORS</a></div>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<div class="card h-100" id="card-second-color">
+<div class="card-body d-flex flex-column">
+<p class="card-text"> Meet the Afrocode Academy Successful Fellows. </p>
+<div style="margin-top: auto;"><a href="fellows.qmd" class="card-link second-color-link heading-font">FELLOWS</a></div>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<div class="card h-100" id="card-third-color">
+<div class="card-body d-flex flex-column">
+<p class="card-text"> Explore our fellows research project, guided by our  mentors.</p>
+<div style="margin-top: auto;"><a href="projects.qmd" class="card-link third-color-link heading-font">PROJECTS</a></div>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<div class="card h-100" id="card-first-color">
+<div class="card-body d-flex flex-column">
+<p class="card-text"> Get in touch. Join us as a mentor</p>
+<div style="margin-top: auto;"><a href="contact.qmd" class="card-link heading-font">CONTACT</a></div>
+</div>
+</div>
+:::
+
+
+::: {.g-col-12 .g-col-md-12}
+<div style="text-align: left; margin-top: 3rem; margin-bottom: -1.5rem;">
+  <span class="card-link third-color-link heading-font" style="font-size: 0.8rem; font-weight: 100;">
+    Our Collaborators:
+  </span>
+</div>
+
+<div style="
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  padding: 20px 10px;
+  gap: 40px;
+  border-radius: 10px;
+  margin-bottom: -4rem;
+">
+  <img src="/images/hausa_nlp_no_bg.png" alt="Hausa NLP" class="lightbox profile-pic" style="width: 22%;"> |
+  <img src="/images/google.png" alt="Google" class="lightbox profile-pic" style="width: 22%;"> |
+  <img src="/images/tensorflow.png" alt="TensorFlow" class="lightbox profile-pic" style="width: 22%;"> |
+  <img src="/images/DC_Donates_logo_navy_bg.png" alt="Data Connect" class="lightbox profile-pic" style="width: 22%;">
+</div>
+:::
+
+:::
